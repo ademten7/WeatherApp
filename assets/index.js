@@ -21,7 +21,7 @@ const timeFunc = () => {
         h -= 12;
         div.style.cssText = "background-color:skyblue; color:black"
         if (h < 10) {
-            h = `0${h}`;
+            h = `${h}`;
         }
         if (d < 10) {
             d = `0${d}`;
