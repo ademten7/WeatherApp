@@ -63,6 +63,8 @@ timeFunc();
 
 
 
+//
+
 
 let divContainer = document.querySelector(".container");
 const getWeatherData = () => {
@@ -124,7 +126,9 @@ const getWeatherData = () => {
 
                     //to assign days 
 
-                    let today = new Date().getDate(); //2
+
+                    let today = new Date().getDay(); //2
+
                     let indexOfDay = (index + today);
                     if (indexOfDay > 6) {
                         indexOfDay = indexOfDay % 6
@@ -153,6 +157,9 @@ const getWeatherData = () => {
                             days.innerText = "Sat";
                             break;
                     }
+
+
+
 
 
 
