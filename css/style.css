@@ -69,3 +69,25 @@ li {
     font-size: 3em;
     color: #0e353a;
 }
+
+.icons {
+    animation: play 1s infinite linear;
+}
+
+@keyframes play {
+    0% {
+        transform: scale(1.1);
+    }
+    25% {
+        transform: scale(1.25);
+    }
+    50% {
+        transform: scale(1.4);
+    }
+    75% {
+        transform: scale(1.25);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}

@@ -103,6 +103,7 @@ const getWeatherData = () => {
                     main1.classList.add("main");
                     let font = document.createElement("li");
                     let icon1 = document.createElement("img");
+                    icon1.classList.add("icons")
                     div.append(days, icon1, ul);
 
 
